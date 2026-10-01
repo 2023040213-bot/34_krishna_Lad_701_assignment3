@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background: #f2f5f9;
+}
+
+
+/* Login */
+
+.login-container {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+
+.login-box {
+
+    width: 350px;
+
+    padding: 30px;
+
+    background: white;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 5px 20px rgba(0,0,0,0.15);
+}
+
+
+.login-box h1 {
+
+    text-align: center;
+
+    margin-bottom: 25px;
+}
+
+
+input,
+textarea,
+select {
+
+    width: 100%;
+
+    padding: 12px;
+
+    margin: 8px 0 15px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+    font-size: 15px;
+}
+
+
+button {
+
+    padding: 12px 20px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    background: #2563eb;
+
+    color: white;
+
+    cursor: pointer;
+
+    margin: 5px;
+
+    font-size: 15px;
+}
+
+
+button:hover {
+
+    background: #1d4ed8;
+}
+
+
+/* General Container */
+
+.container {
+
+    width: 90%;
+
+    max-width: 900px;
+
+    margin: 40px auto;
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+/* Menu */
+
+.menu {
+
+    margin-top: 30px;
+
+    display: flex;
+
+    gap: 10px;
+
+    flex-wrap: wrap;
+}
+
+
+/* Profile */
+
+.profile {
+
+    background: #f8fafc;
+
+    padding: 20px;
+
+    border-radius: 8px;
+
+    margin-top: 20px;
+}
+
+
+.profile p {
+
+    padding: 10px;
+
+    border-bottom: 1px solid #ddd;
+}
+
+
+/* Leave */
+
+.leave-form {
+
+    background: #f8fafc;
+
+    padding: 20px;
+
+    margin-bottom: 40px;
+
+    border-radius: 8px;
+}
+
+
+/* Table */
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 20px;
+}
+
+
+th,
+td {
+
+    border: 1px solid #ddd;
+
+    padding: 12px;
+
+    text-align: left;
+}
+
+
+th {
+
+    background: #2563eb;
+
+    color: white;
+}
